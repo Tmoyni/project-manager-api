@@ -1,0 +1,3202 @@
+Started GET "/" for ::1 at 2020-01-29 15:07:24 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "project_manager_api_development" does not exist
+):
+  
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:889:in `new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:912:in `try_to_checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:873:in `acquire_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:595:in `checkout'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:439:in `connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1121:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:238:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:206:in `connection'
+activerecord (6.0.2.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 15:07:46 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "project_manager_api_development" does not exist
+):
+  
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:889:in `new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:912:in `try_to_checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:873:in `acquire_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:595:in `checkout'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:439:in `connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1121:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:238:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:206:in `connection'
+activerecord (6.0.2.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (275.5ms)[0m  [1m[35mCREATE DATABASE "project_manager_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (151.2ms)[0m  [1m[35mCREATE DATABASE "project_manager_api_test" ENCODING = 'unicode'[0m
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 15:08:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/projects"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (33.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8540099993982752895)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProjects (20200129201102)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.9ms)[0m  [1m[35mCREATE TABLE "projects" ("id" bigserial primary key, "user_id" integer, "name" character varying, "due_date" date, "dropbox_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200129201102"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-29 20:15:14.831862"], ["updated_at", "2020-01-29 20:15:14.831862"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8540099993982752895)[0m
+  [1m[35m (12.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 15:15:34 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for Api::V1::ProjectsController):
+  
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:131:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.2) lib/rack/etag.rb:27:in `call'
+rack (2.1.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.2) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 15:16:47 -0500
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (1.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 2.4ms | ActiveRecord: 4.3ms | Allocations: 1885)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (2.0ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", 2017], ["dropbox_id", 1], ["created_at", "2020-01-29 20:26:52.207977"], ["updated_at", "2020-01-29 20:26:52.207977"]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (1.6ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", "2020-02-01"], ["dropbox_id", 1], ["created_at", "2020-01-29 20:27:47.375655"], ["updated_at", "2020-01-29 20:27:47.375655"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.5ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Paid"], ["due_date", "2020-02-01"], ["dropbox_id", 1], ["created_at", "2020-01-29 20:27:47.385006"], ["updated_at", "2020-01-29 20:27:47.385006"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 15:27:58 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 22.0ms | ActiveRecord: 15.3ms | Allocations: 6179)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 15:31:01 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 15.5ms | ActiveRecord: 14.9ms | Allocations: 6180)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8540099993982752895)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProjects (20200129201102)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.4ms)[0m  [1m[35mDROP TABLE "projects"[0m
+  [1m[36mprimary::SchemaMigration Destroy (1.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20200129201102"]]
+  [1m[35m (7.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(8540099993982752895)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8540099993982752895)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProjects (20200129201102)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE "projects" ("id" bigserial primary key, "user_id" integer, "name" character varying, "due_date" date, "dropbox_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200129201102"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreatePosts (20200129204146)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE TABLE "posts" ("id" bigserial primary key, "project_id" integer, "name" character varying, "live_date" date, "description" character varying, "dropbox_id" character varying, "status" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200129204146"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8540099993982752895)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (2.6ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 21:57:57.912980"], ["updated_at", "2020-01-29 21:57:57.912980"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.5ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Paid"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 21:57:57.921579"], ["updated_at", "2020-01-29 21:57:57.921579"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (2.1ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.4ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.9ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 21:59:58.169673"], ["updated_at", "2020-01-29 21:59:58.169673"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.4ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Paid"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 21:59:58.174863"], ["updated_at", "2020-01-29 21:59:58.174863"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.7ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.4ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.6ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 22:00:25.869580"], ["updated_at", "2020-01-29 22:00:25.869580"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.6ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Paid"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 22:00:25.874140"], ["updated_at", "2020-01-29 22:00:25.874140"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.8ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.4ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-01-29 17:16:54 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/trionamoynihan/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/trionamoynihan/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.2ms | Allocations: 316)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 1603)
+
+
+Started GET "/api/v1/items" for ::1 at 2020-01-29 17:16:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/items"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:17:04 -0500
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (3.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 5.2ms | ActiveRecord: 9.6ms | Allocations: 1802)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (1.3ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 22:17:39.625888"], ["updated_at", "2020-01-29 22:17:39.625888"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.4ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Paid"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 22:17:39.632407"], ["updated_at", "2020-01-29 22:17:39.632407"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:17:52 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 38ms (Views: 21.3ms | ActiveRecord: 13.0ms | Allocations: 6195)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:18:11 -0500
+Processing by Api::V1::PostsController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 269)
+
+
+  
+Zeitwerk::NameError (expected file /Users/trionamoynihan/Development/code/project-manager-api/app/models/post.rb to define constant Post, but didn't):
+  
+app/controllers/api/v1/posts_controller.rb:4:in `index'
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:20:18 -0500
+Processing by Api::V1::PostsController#index as HTML
+  [1m[36mPost Load (2.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.5ms | ActiveRecord: 7.4ms | Allocations: 1722)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:20:56 -0500
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 29ms (Views: 12.2ms | ActiveRecord: 15.2ms | Allocations: 5543)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (1.3ms)[0m  [1m[32mINSERT INTO "posts" ("project_id", "name", "live_date", "description", "dropbox_id", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["project_id", 7], ["name", "Valentines Day"], ["live_date", "2020-02-01"], ["description", "valentines"], ["dropbox_id", ""], ["status", "not started"], ["created_at", "2020-01-29 22:21:40.496401"], ["updated_at", "2020-01-29 22:21:40.496401"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("project_id", "name", "live_date", "description", "dropbox_id", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["project_id", 8], ["name", "Sunday Funday"], ["live_date", "2020-02-01"], ["description", "Sunday Funday"], ["dropbox_id", ""], ["status", "in progress"], ["created_at", "2020-01-29 22:21:40.502608"], ["updated_at", "2020-01-29 22:21:40.502608"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:22:00 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PostsController#index as HTML
+  [1m[36mPost Load (1.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 48ms (Views: 25.2ms | ActiveRecord: 19.9ms | Allocations: 7531)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:27:26 -0500
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 123ms (Views: 65.3ms | ActiveRecord: 24.1ms | Allocations: 6900)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:32:23 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (3.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 32.3ms | ActiveRecord: 3.0ms | Allocations: 1072)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:32:48 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.6ms | Allocations: 1089)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:33:36 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 1089)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:34:21 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.4ms | Allocations: 1089)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:34:24 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (4.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 4.3ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:35:21 -0500
+  
+SyntaxError (/Users/trionamoynihan/Development/code/project-manager-api/app/controllers/api/v1/projects_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...ender json: projects, include :posts
+...                              ^):
+  
+app/controllers/api/v1/projects_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/controllers/api/v1/projects_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:36:48 -0500
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 18.9ms | ActiveRecord: 12.7ms | Allocations: 6135)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:36:55 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:38:15 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 2.0ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:38:22 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.1ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:41:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:41:26 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (4.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 116ms (Views: 60.2ms | ActiveRecord: 27.4ms | Allocations: 7689)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:05 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:22 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:42:22 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:40 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:42:40 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (3.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 4.0ms | ActiveRecord: 3.3ms | Allocations: 1225)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:43 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:42:43 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (2.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 2.0ms | Allocations: 1552)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 2.0ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:49 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:42:49 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (2.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 2.0ms | Allocations: 2116)
+
+
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 1.3ms | Allocations: 1643)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:52 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:42:52 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.4ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:42:54 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:42:54 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:01 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:01 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:04 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:04 -0500
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.9ms | Allocations: 1398)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:12 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:12 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (4.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 4.6ms | ActiveRecord: 4.8ms | Allocations: 1517)
+
+
+  [1m[36mPost Load (1.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 1.9ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:17 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:17 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (7.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (6.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 3.3ms | ActiveRecord: 6.7ms | Allocations: 1792)
+
+
+Completed 200 OK in 49ms (Views: 41.3ms | ActiveRecord: 7.0ms | Allocations: 2787)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:27 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:27 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+  [1m[36mPost Load (10.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 3.0ms | ActiveRecord: 10.3ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:39 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:39 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.0ms | Allocations: 1235)
+
+
+  [1m[36mProject Load (10.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 2.9ms | ActiveRecord: 10.8ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:43:47 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:43:47 -0500
+  [1m[36mProject Load (2.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 2.8ms | Allocations: 1424)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.2ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:44:00 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:44:00 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.8ms | Allocations: 1194)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 1.5ms | Allocations: 2283)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 17:44:16 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.9ms | Allocations: 1092)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 17:44:16 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8540099993982752895)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateImages (20200129225227)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (20.8ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "post_id" integer, "file_name" character varying, "dropbox_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200129225227"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateCopies (20200129225346)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "copies" ("id" bigserial primary key, "post_id" integer, "text" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200129225346"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8540099993982752895)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.8ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Destroy (0.4ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Destroy (0.6ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Destroy (0.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.6ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Organic"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 23:05:16.931337"], ["updated_at", "2020-01-29 23:05:16.931337"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Create (0.4ms)[0m  [1m[32mINSERT INTO "projects" ("user_id", "name", "due_date", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["user_id", 1], ["name", "February Paid"], ["due_date", "2020-02-01"], ["dropbox_id", ""], ["created_at", "2020-01-29 23:05:16.936130"], ["updated_at", "2020-01-29 23:05:16.936130"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mPost Create (1.0ms)[0m  [1m[32mINSERT INTO "posts" ("project_id", "name", "live_date", "description", "dropbox_id", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["project_id", 9], ["name", "Valentines Day"], ["live_date", "2020-02-01"], ["description", "valentines"], ["dropbox_id", ""], ["status", "not started"], ["created_at", "2020-01-29 23:05:16.960369"], ["updated_at", "2020-01-29 23:05:16.960369"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("project_id", "name", "live_date", "description", "dropbox_id", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["project_id", 10], ["name", "Sunday Funday"], ["live_date", "2020-02-01"], ["description", "Sunday Funday"], ["dropbox_id", ""], ["status", "in progress"], ["created_at", "2020-01-29 23:05:16.967677"], ["updated_at", "2020-01-29 23:05:16.967677"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCopy Create (1.2ms)[0m  [1m[32mINSERT INTO "copies" ("post_id", "text", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["post_id", 3], ["text", "woo Valenties Day is the best"], ["created_at", "2020-01-29 23:05:16.986300"], ["updated_at", "2020-01-29 23:05:16.986300"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCopy Create (0.3ms)[0m  [1m[32mINSERT INTO "copies" ("post_id", "text", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["post_id", 4], ["text", "woo Sunday Funday is Awesome"], ["created_at", "2020-01-29 23:05:16.993025"], ["updated_at", "2020-01-29 23:05:16.993025"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mImage Create (1.5ms)[0m  [1m[32mINSERT INTO "images" ("post_id", "file_name", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["post_id", 3], ["file_name", "ValentinesDay.jpg"], ["dropbox_id", ""], ["created_at", "2020-01-29 23:05:17.030049"], ["updated_at", "2020-01-29 23:05:17.030049"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("post_id", "file_name", "dropbox_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["post_id", 4], ["file_name", "SundayFunday.jpg"], ["dropbox_id", ""], ["created_at", "2020-01-29 23:05:17.036867"], ["updated_at", "2020-01-29 23:05:17.036867"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:05:30 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 38ms (Views: 17.5ms | ActiveRecord: 14.1ms | Allocations: 6977)
+
+
+Started GET "/api/v1/copies" for ::1 at 2020-01-29 18:05:37 -0500
+Processing by Api::V1::CopiesController#index as HTML
+  [1m[36mCopy Load (2.5ms)[0m  [1m[34mSELECT "copies".* FROM "copies"[0m
+  ↳ app/controllers/api/v1/copies_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 12.3ms | ActiveRecord: 16.3ms | Allocations: 4758)
+
+
+Started GET "/api/v1/images" for ::1 at 2020-01-29 18:05:47 -0500
+Processing by Api::V1::ImagesController#index as HTML
+  [1m[36mImage Load (2.9ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/api/v1/images_controller.rb:5:in `index'
+Completed 200 OK in 43ms (Views: 21.8ms | ActiveRecord: 16.5ms | Allocations: 5060)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:08:26 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:08:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (3.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.9ms | ActiveRecord: 3.6ms | Allocations: 1072)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 53ms (Views: 24.6ms | ActiveRecord: 22.0ms | Allocations: 8319)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:21 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:21 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (6.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 39ms (Views: 21.9ms | ActiveRecord: 6.5ms | Allocations: 9830)
+
+
+  [1m[36mProject Load (16.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 39ms (Views: 19.6ms | ActiveRecord: 16.7ms | Allocations: 12588)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:28 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:28 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.7ms | Allocations: 1278)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (3.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 3.5ms | Allocations: 1135)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:31 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:31 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:36 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:36 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 1.0ms | Allocations: 1186)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.4ms | Allocations: 2283)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:41 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:41 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 1.2ms | Allocations: 2195)
+
+
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 1.1ms | Allocations: 2116)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:52 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:52 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (4.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 2.8ms | ActiveRecord: 4.7ms | Allocations: 1654)
+
+
+  [1m[36mProject Load (7.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 3.1ms | ActiveRecord: 7.5ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:38:59 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:38:59 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.8ms | Allocations: 1785)
+
+
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms | Allocations: 2154)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:02 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:02 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (4.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 4.1ms | Allocations: 1448)
+
+
+  [1m[36mProject Load (6.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 3.8ms | ActiveRecord: 6.2ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:04 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:04 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.8ms | Allocations: 1186)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 1.3ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:45 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:45 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms | Allocations: 1074)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:47 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 1217)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:47 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 1.1ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:49 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:49 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.8ms | Allocations: 1186)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 1.3ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:51 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:51 -0500
+  [1m[36mProject Load (2.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 2.2ms | Allocations: 1429)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:53 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:53 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.5ms | ActiveRecord: 10.4ms | Allocations: 2431)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:39:57 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:39:57 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.4ms | Allocations: 2204)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.3ms | Allocations: 2268)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:19 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:19 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (4.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 4.1ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (5.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 2.5ms | ActiveRecord: 5.7ms | Allocations: 2329)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:24 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:24 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.7ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:33 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:33 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:37 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:37 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.0ms | Allocations: 1080)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (3.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 3.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:38 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:38 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+  [1m[36mProject Load (6.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.1ms | Allocations: 1770)
+
+
+Completed 200 OK in 15ms (Views: 7.2ms | ActiveRecord: 6.4ms | Allocations: 2846)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:40 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:40 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.5ms | ActiveRecord: 10.5ms | Allocations: 3180)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:42 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:42 -0500
+  [1m[36mProject Load (4.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Processing by Api::V1::PostsController#index as */*
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 4.0ms | Allocations: 1700)
+
+
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.9ms | Allocations: 1329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 18:40:45 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 18:40:45 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.9ms | Allocations: 2154)
+
+
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.7ms | Allocations: 1186)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:19:45 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:19:45 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mProject Load (1.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 1.9ms | Allocations: 2557)
+
+
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.9ms | Allocations: 1842)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:20:12 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (2.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 2.2ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:20:12 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:20:16 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:20:16 -0500
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.1ms | Allocations: 1418)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:24:34 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:24:34 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.9ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (4.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 4.0ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:24:54 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:24:54 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Processing by Api::V1::ProjectsController#index as */*
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 1552)
+
+
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 1.0ms | Allocations: 1246)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:25:10 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:25:10 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:34:55 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:34:55 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (4.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 18.0ms | ActiveRecord: 4.0ms | Allocations: 1886)
+
+
+  [1m[36mProject Load (16.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 17.5ms | ActiveRecord: 16.4ms | Allocations: 2502)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:45:45 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:45:45 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (5.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+  [1m[36mProject Load (15.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 21ms (Views: 5.3ms | ActiveRecord: 15.5ms | Allocations: 2218)
+
+
+Completed 200 OK in 29ms (Views: 22.4ms | ActiveRecord: 5.3ms | Allocations: 3163)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 20:56:34 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 20:56:34 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (7.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+  [1m[36mProject Load (5.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 79ms (Views: 57.5ms | ActiveRecord: 7.6ms | Allocations: 1730)
+
+
+Completed 200 OK in 49ms (Views: 35.6ms | ActiveRecord: 5.3ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:00:12 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:00:12 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (2.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 2.3ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (6.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 6.0ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:00:22 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:00:22 -0500
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.6ms | Allocations: 1111)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.5ms | Allocations: 1258)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:00:34 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:00:34 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (2.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.7ms | Allocations: 2157)
+
+
+Completed 200 OK in 127ms (Views: 124.2ms | ActiveRecord: 2.4ms | Allocations: 1608)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:00:42 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:00:42 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.5ms | Allocations: 1450)
+
+
+  [1m[36mPost Load (11.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 11.0ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:00:51 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:00:51 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 2.9ms | ActiveRecord: 10.7ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:00:58 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:00:58 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (8.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 3.1ms | ActiveRecord: 8.4ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:01:11 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.3ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:01:11 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:09:33 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:09:33 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (2.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 17.8ms | ActiveRecord: 2.4ms | Allocations: 1326)
+
+
+  [1m[36mProject Load (13.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 9.1ms | ActiveRecord: 13.3ms | Allocations: 2502)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:10:26 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:10:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 1.0ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (2.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 2.8ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:10:33 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.3ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:10:33 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:10:36 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:10:36 -0500
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Processing by Api::V1::PostsController#index as */*
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 2.0ms | Allocations: 1945)
+
+
+  [1m[36mPost Load (5.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 3.2ms | ActiveRecord: 5.5ms | Allocations: 1619)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:10:55 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 1.2ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:10:55 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:11:00 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:11:00 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.7ms | Allocations: 1186)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 1.5ms | Allocations: 2173)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:11:29 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.7ms | Allocations: 1087)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:11:29 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.3ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:13:51 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:13:51 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.9ms | Allocations: 1173)
+
+
+  [1m[36mPost Load (3.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 3.4ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:14:05 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:14:05 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (4.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (5.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 5.4ms | Allocations: 1928)
+
+
+Completed 200 OK in 17ms (Views: 11.3ms | ActiveRecord: 4.9ms | Allocations: 2576)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:14:12 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:14:12 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.6ms | Allocations: 1149)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 1.1ms | Allocations: 1187)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:15:30 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:15:30 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:15:31 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:15:31 -0500
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.9ms | Allocations: 1276)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.9ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:15:33 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:15:33 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (7.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 2.7ms | ActiveRecord: 7.8ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:15:41 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:15:41 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 10.7ms | Allocations: 3205)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:15:46 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:15:46 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.8ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (3.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 3.6ms | Allocations: 2283)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:23:15 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:23:15 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (2.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Processing by Api::V1::PostsController#index as */*
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 2.2ms | Allocations: 1820)
+
+
+  [1m[36mPost Load (5.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 3.9ms | ActiveRecord: 5.9ms | Allocations: 1886)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:26:41 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:26:41 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:26:46 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:26:46 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (2.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 2.9ms | Allocations: 1559)
+
+
+  [1m[36mPost Load (3.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 3.8ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:27:34 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:27:34 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Processing by Api::V1::PostsController#index as */*
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.8ms | Allocations: 1603)
+
+
+  [1m[36mPost Load (2.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 2.0ms | Allocations: 1478)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:28:39 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1109)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:28:39 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:35:15 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:35:15 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (2.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 2.4ms | Allocations: 1548)
+
+
+  [1m[36mProject Load (8.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 3.5ms | ActiveRecord: 8.6ms | Allocations: 2502)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:36:00 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:36:00 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 1.1ms | Allocations: 1242)
+
+
+  [1m[36mProject Load (55.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 59ms (Views: 3.4ms | ActiveRecord: 55.2ms | Allocations: 2332)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:39:58 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:39:58 -0500
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 2.0ms | Allocations: 1429)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.1ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:02 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:02 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 3.0ms | ActiveRecord: 10.2ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:05 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:05 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.2ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 1.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:13 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:13 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.9ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:17 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.1ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:17 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:21 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:21 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:30 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:30 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:38 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:38 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (9.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 2.6ms | ActiveRecord: 9.4ms | Allocations: 2860)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:40:57 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:40:57 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.9ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:41:24 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (2.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 2.4ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:41:24 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (4.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 4.9ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:41:26 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:41:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.3ms | Allocations: 1596)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.0ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:41:31 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:41:31 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.6ms | Allocations: 1071)
+
+
+  [1m[36mPost Load (10.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 2.9ms | ActiveRecord: 10.4ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:41:57 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:41:57 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.5ms | ActiveRecord: 10.2ms | Allocations: 3183)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:43:11 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:43:11 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.4ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (5.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 22ms (Views: 17.1ms | ActiveRecord: 5.1ms | Allocations: 2332)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:43:13 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:43:13 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.0ms | Allocations: 1186)
+
+
+  [1m[36mPost Load (3.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 3.5ms | Allocations: 2233)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:43:14 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:43:14 -0500
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 1.3ms | Allocations: 1401)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:43:25 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:43:25 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.1ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (2.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 2.9ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:43:27 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:43:27 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (4.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 4.5ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (4.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 4.6ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:44:25 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:44:25 -0500
+  [1m[36mProject Load (2.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 2.3ms | Allocations: 1443)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (2.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 2.3ms | Allocations: 1181)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:44:41 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:44:41 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:44:43 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:44:43 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.9ms | Allocations: 1516)
+
+
+  [1m[36mProject Load (2.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 2.7ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:44:45 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:44:45 -0500
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.4ms | Allocations: 1125)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.8ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:45:08 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:45:08 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.2ms | Allocations: 1579)
+
+
+  [1m[36mPost Load (10.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 3.6ms | ActiveRecord: 10.3ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:45:10 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:45:10 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 1.6ms | Allocations: 1071)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 2.1ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:45:22 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:45:22 -0500
+  [1m[36mProject Load (2.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 2.8ms | Allocations: 1420)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:45:25 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:45:25 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.8ms | Allocations: 1601)
+
+
+  [1m[36mPost Load (3.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 3.9ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:45:39 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:45:39 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (2.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.9ms | Allocations: 1186)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 2.3ms | Allocations: 2283)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:46:05 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:46:05 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (3.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 3.5ms | Allocations: 1596)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 1.5ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:46:34 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:46:34 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1138)
+
+
+  [1m[36mProject Load (6.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 13.2ms | ActiveRecord: 6.0ms | Allocations: 2430)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:46:47 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:46:47 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.9ms | Allocations: 1516)
+
+
+  [1m[36mProject Load (7.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 2.6ms | ActiveRecord: 7.5ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:46:51 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.9ms | Allocations: 1092)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:46:51 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:47:01 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:47:01 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (3.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 3.1ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:47:24 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:47:24 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.9ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:47:36 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:47:36 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:48:06 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:48:06 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:48:16 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:48:16 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:48:34 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:48:34 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (2.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 2.3ms | Allocations: 1605)
+
+
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 1.2ms | Allocations: 2314)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:48:40 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:48:40 -0500
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 1415)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:48:56 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:48:56 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 1071)
+
+
+  [1m[36mPost Load (10.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.8ms | ActiveRecord: 10.2ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:49:50 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 1115)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:49:50 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:50:03 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.6ms | Allocations: 1092)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:50:03 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.2ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:50:18 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:50:18 -0500
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.3ms | Allocations: 1398)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.0ms | Allocations: 1181)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:50:31 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:50:31 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 54ms (Views: 5.8ms | ActiveRecord: 0.6ms | Allocations: 1140)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:50:50 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:50:50 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:51:00 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:51:00 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:51:13 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:51:13 -0500
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 1.0ms | Allocations: 1278)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (4.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 4.0ms | Allocations: 1298)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:53:48 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:53:48 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:53:51 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.6ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:53:51 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 2.1ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:54:15 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:54:15 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.6ms | ActiveRecord: 10.2ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:54:17 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:54:17 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (4.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 4.5ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (4.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 3.0ms | ActiveRecord: 4.2ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:54:26 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:54:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.8ms | Allocations: 1173)
+
+
+  [1m[36mPost Load (7.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 2.8ms | ActiveRecord: 7.8ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:55:31 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:55:31 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+  [1m[36mPost Load (10.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 3.1ms | ActiveRecord: 10.6ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:55:33 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.3ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:55:33 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (2.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 2.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:55:39 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:55:39 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1088)
+
+
+  [1m[36mPost Load (2.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 2.6ms | Allocations: 2435)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:57:20 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:57:20 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (2.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 1.8ms | Allocations: 1833)
+
+
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 2.6ms | Allocations: 2137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 21:58:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 21:58:26 -0500
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.6ms | Allocations: 1521)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.0ms | Allocations: 1152)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:00:26 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:00:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (5.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (9.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 90ms (Views: 79.9ms | ActiveRecord: 9.4ms | Allocations: 2157)
+
+
+Completed 200 OK in 43ms (Views: 27.2ms | ActiveRecord: 5.5ms | Allocations: 2204)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:01:08 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:01:08 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:02:39 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:02:39 -0500
+  [1m[36mProject Load (2.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 2.7ms | Allocations: 1443)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.3ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:03:03 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 1.8ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:03:03 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:03:08 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:03:08 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (2.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 2.3ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (4.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 4.0ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:03:50 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:03:50 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (3.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 1.1ms | Allocations: 1565)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 3.6ms | Allocations: 2405)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:04:40 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:04:40 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:04:41 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 1091)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:04:41 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:06:05 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:06:05 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:06:48 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:06:48 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.9ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:09:21 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:09:21 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.6ms | Allocations: 1159)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:10:05 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:10:05 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.2ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (4.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 4.2ms | ActiveRecord: 4.4ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:10:34 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:10:34 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 1.7ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (9.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 3.6ms | ActiveRecord: 9.4ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:10:58 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:10:58 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:11:51 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:11:51 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 1.4ms | Allocations: 1518)
+
+
+  [1m[36mProject Load (10.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 4.2ms | ActiveRecord: 10.9ms | Allocations: 2309)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:12:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:12:26 -0500
+  [1m[36mProject Load (2.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 2.9ms | Allocations: 1433)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:12:46 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (4.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 4.0ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:12:46 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.9ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:13:56 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:13:56 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.6ms | Allocations: 1169)
+
+
+  [1m[36mPost Load (4.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 4.5ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:14:58 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:14:58 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms | Allocations: 1186)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.4ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:15:02 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:15:02 -0500
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.9ms | Allocations: 1415)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:15:19 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:15:19 -0500
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 1.6ms | Allocations: 1287)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 1181)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:15:23 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:15:23 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (4.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.8ms | Allocations: 1800)
+
+
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 4.9ms | Allocations: 2137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:15:25 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:15:25 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Processing by Api::V1::PostsController#index as */*
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.6ms | Allocations: 1599)
+
+
+  [1m[36mPost Load (3.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 3.4ms | Allocations: 1717)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:16:07 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:16:07 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (8.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 2.4ms | ActiveRecord: 8.5ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (9.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.5ms | ActiveRecord: 9.6ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:16:53 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:16:53 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.1ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (10.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.6ms | ActiveRecord: 10.3ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:16:58 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:16:58 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.6ms | Allocations: 1579)
+
+
+  [1m[36mPost Load (3.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 3.5ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:17:04 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:17:04 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (3.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 3.5ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (6.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 6.0ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:19:26 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:19:26 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.3ms | Allocations: 1450)
+
+
+  [1m[36mPost Load (3.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 3.9ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:19:29 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:19:29 -0500
+  [1m[36mProject Load (7.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 61ms (Views: 53.5ms | ActiveRecord: 7.2ms | Allocations: 1433)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (5.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 3.3ms | ActiveRecord: 5.0ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:19:37 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:19:37 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:19:43 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:19:43 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (11.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 3.0ms | ActiveRecord: 11.0ms | Allocations: 2857)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:20:46 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.9ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:20:46 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:21:15 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:21:15 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.0ms | Allocations: 1071)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:21:18 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:21:18 -0500
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 2.0ms | Allocations: 1408)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.3ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:21:47 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:21:47 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mProject Load (8.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 2.6ms | ActiveRecord: 8.4ms | Allocations: 2427)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:21:55 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:21:55 -0500
+  [1m[36mProject Load (2.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 2.0ms | Allocations: 1414)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:22:20 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.9ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:22:20 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:22:23 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (5.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 5.3ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:22:24 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (7.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 7.3ms | ActiveRecord: 7.6ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:22:29 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:22:29 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.1ms | Allocations: 1729)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.9ms | Allocations: 2266)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:22:30 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:22:30 -0500
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.0ms | Allocations: 1111)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1183)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:22:39 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:22:39 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.3ms | Allocations: 1588)
+
+
+  [1m[36mPost Load (4.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 5.2ms | ActiveRecord: 4.5ms | Allocations: 2312)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:23:01 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:23:01 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.9ms | Allocations: 1071)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 2.1ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:23:04 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:23:04 -0500
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 1.4ms | Allocations: 1392)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:23:05 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:23:05 -0500
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Processing by Api::V1::PostsController#index as */*
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1517)
+
+
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 1329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:24:18 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:24:18 -0500
+  [1m[36mProject Load (2.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 2.8ms | Allocations: 1194)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (1.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.8ms | Allocations: 1137)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:24:36 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:24:36 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (6.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 3.5ms | ActiveRecord: 6.1ms | Allocations: 1654)
+
+
+  [1m[36mProject Load (6.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 3.2ms | ActiveRecord: 6.7ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:24:39 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.7ms | Allocations: 1071)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:24:39 -0500
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:24:50 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:24:50 -0500
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mProject Load (1.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.4ms | Allocations: 1071)
+
+
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mPost Load (3.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 3.0ms | Allocations: 1137)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:24:58 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:24:58 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.2ms | Allocations: 2137)
+
+
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.3ms | Allocations: 1605)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:29:05 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:29:05 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (7.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+  [1m[36mProject Load (15.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 50ms (Views: 31.7ms | ActiveRecord: 7.7ms | Allocations: 2113)
+
+
+Completed 200 OK in 51ms (Views: 19.0ms | ActiveRecord: 15.6ms | Allocations: 2413)
+
+
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:35:05 -0500
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:35:05 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 2.1ms | Allocations: 1607)
+
+
+  [1m[36mProject Load (10.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 2.7ms | ActiveRecord: 10.3ms | Allocations: 2502)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:45:51 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:45:51 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (4.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 32ms (Views: 23.9ms | ActiveRecord: 4.5ms | Allocations: 1264)
+
+
+  [1m[36mPost Load (18.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 28ms (Views: 7.4ms | ActiveRecord: 18.3ms | Allocations: 2502)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:46:56 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:46:56 -0500
+Processing by Api::V1::PostsController#index as */*
+Processing by Api::V1::ProjectsController#index as */*
+  [1m[36mPost Load (2.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 2.4ms | Allocations: 1645)
+
+
+  [1m[36mProject Load (7.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 3.0ms | ActiveRecord: 7.5ms | Allocations: 2329)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:47:16 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:47:16 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 1.0ms | Allocations: 1784)
+
+
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.5ms | Allocations: 2157)
+
+
+Started GET "/api/v1/projects" for ::1 at 2020-01-29 22:47:48 -0500
+Started GET "/api/v1/posts" for ::1 at 2020-01-29 22:47:48 -0500
+Processing by Api::V1::ProjectsController#index as */*
+Processing by Api::V1::PostsController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/api/v1/projects_controller.rb:5:in `index'
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.9ms | Allocations: 1190)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.4ms | Allocations: 2329)
+
+
