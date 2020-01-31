@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2020_01_29_225346) do
   create_table "images", force: :cascade do |t|
     t.integer "post_id"
     t.string "file_name"
-    t.string "dropbox_id"
+    t.string "dropbox_path"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 2020_01_29_225346) do
     t.string "name"
     t.date "live_date"
     t.string "description"
-    t.string "dropbox_id"
+    t.string "dropbox_path"
     t.string "status"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2020_01_29_225346) do
     t.integer "user_id"
     t.string "name"
     t.date "due_date"
-    t.string "dropbox_id"
+    t.string "dropbox_path"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

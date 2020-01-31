@@ -2,7 +2,7 @@ class Api::V1::PostsController < ApplicationController
 
     def index
         posts = Post.all
-        render json: posts
+        render json: PostSerializer.new(posts)
     end 
 
     def create 
@@ -21,11 +21,10 @@ class Api::V1::PostsController < ApplicationController
         post.destroy
     end
 
-
 end
 
 def post_params
-    params.permit(:project_id, :name, :live_date, :description, :dropbox_id, :status)
+    params.permit(:project_id, :name, :live_date, :description, :dropbox_path, :status)
 end
 
 

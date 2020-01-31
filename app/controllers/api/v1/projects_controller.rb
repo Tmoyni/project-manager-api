@@ -2,7 +2,7 @@ class Api::V1::ProjectsController < ApplicationController
 
     def index
         projects = Project.all
-        render json: projects
+        render json: ProjectSerializer.new(projects) 
     end 
 
     def create 
@@ -25,5 +25,5 @@ class Api::V1::ProjectsController < ApplicationController
 end
 
 def project_params
-    params.permit(:user_id, :name, :due_date, :dropbox_id)
+    params.permit(:user_id, :name, :due_date, :dropbox_path)
 end
