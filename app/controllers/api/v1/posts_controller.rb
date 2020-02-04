@@ -7,7 +7,7 @@ class Api::V1::PostsController < ApplicationController
 
     def create 
         post = Post.create!(post_params)
-        render json: image  
+        render json: post  
     end
 
     def update
@@ -24,7 +24,7 @@ class Api::V1::PostsController < ApplicationController
 end
 
 def post_params
-    params.permit(:project_id, :name, :live_date, :description, :dropbox_path, :status)
+    params.require(:post).permit(:project_id, :name, :live_date, :description, :dropbox_path, :status )
 end
 
 

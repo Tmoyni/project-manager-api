@@ -6,7 +6,7 @@ class Api::V1::CopiesController < ApplicationController
     end 
 
     def create 
-        copy = Copy.create!(image_params)
+        copy = Copy.create!(copy_params)
         render json: copy  
     end
 
@@ -25,6 +25,6 @@ class Api::V1::CopiesController < ApplicationController
 end
 
 def copy_params
-    params.permit(:post_id, :text)
+    params.require(:copy).permit(:post_id, :text)
 end
 
