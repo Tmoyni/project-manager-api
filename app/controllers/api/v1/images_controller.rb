@@ -25,7 +25,7 @@ class Api::V1::ImagesController < ApplicationController
 end
 
 def image_params
-    params.permit(:post_id, :file_name, :dropbox_path)
+    params.require(:image).permit(:post_id, :file_name, :dropbox_path)
 end
 
 
