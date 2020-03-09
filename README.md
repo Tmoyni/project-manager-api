@@ -1,24 +1,4 @@
-# README
+# Project Manager Back End
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A React Redux web application that helps track and view projects and files for agency social media campaigns.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
