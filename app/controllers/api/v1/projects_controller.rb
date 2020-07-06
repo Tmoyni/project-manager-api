@@ -25,5 +25,5 @@ class Api::V1::ProjectsController < ApplicationController
 end
 
 def project_params
-    params.permit(:user_id, :name, :due_date, :dropbox_path)
+    params.permit(:user_id, :name, :due_date, :dropbox)
 end
