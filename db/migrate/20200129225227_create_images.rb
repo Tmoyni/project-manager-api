@@ -3,7 +3,7 @@ class CreateImages < ActiveRecord::Migration[6.0]
     create_table :images do |t|
       t.integer :post_id
       t.string :file_name
-      t.string :dropbox_path
+      t.string :dropbox
 
       t.timestamps
     end

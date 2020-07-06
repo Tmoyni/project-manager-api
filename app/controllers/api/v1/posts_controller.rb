@@ -24,7 +24,7 @@ class Api::V1::PostsController < ApplicationController
 end
 
 def post_params
-    params.require(:post).permit(:project_id, :name, :live_date, :description, :dropbox_path, :status )
+    params.require(:post).permit(:project_id, :name, :live_date, :description, :dropbox, :status )
 end
 
 

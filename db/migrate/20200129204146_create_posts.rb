@@ -5,7 +5,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.string :name
       t.date :live_date
       t.string :description
-      t.string :dropbox_path
+      t.string :dropbox
       t.string :status
 
       t.timestamps

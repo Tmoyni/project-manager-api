@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration[6.0]
       t.integer :user_id
       t.string :name
       t.date :due_date
-      t.string :dropbox_path
+      t.string :dropbox
 
       t.timestamps
     end
